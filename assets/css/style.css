@@ -1,33 +1,48 @@
-#mtCarousel .carousel-item {
-    height: 15rem;
+header > nav {
+    height: 4rem;
 }
 
-#mtCarousel .carousel-item > img {
-    object-fit: cover;
+main {
+    margin-top: 4rem;
 }
 
-#mtCarousel .carousel-item > .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.4);
+a {
+    text-decoration: none;
 }
 
-.icon-xl {
-    font-size: 5rem;
+a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: ease-in 0.4s;
 }
 
-.card-img-top {
-    height: 15rem;
-    object-fit: cover;
-    zoom: 70%;
+.card > .card-body {
+    height: 5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
 }
 
-@media screen and (min-width: 768px) {
-    #mtCarousel .carousel-item {
-        height: 20rem;
-    }
+.bg-coral {
+    background-color: coral;
 }
 
-@media screen and (min-width: 1024px) {
-    #mtCarousel .carousel-item {
-        height: 25rem;
-    }  
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-gold {
+    background-color: darkgoldenrod;
+}
+
+.bg-crimson {
+    background-color: crimson;
+}
+
+.bg-green {
+    background-color: lightseagreen;
 }
